@@ -1,0 +1,302 @@
+
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family: sans-serif;
+    overflow-x:hidden;
+  }
+  
+  .Blinkit-Navbar
+  {
+    border-bottom:1px solid #eeeeee ;
+    position: sticky;
+    top: 0px;
+    height: 86px;
+    background-color: white;
+    z-index:1;
+  }
+  
+  .Vertical-Line
+  {
+    border-left:1px solid #eeeeee;
+    height: 100%;
+    margin: 10px;
+  }
+  
+  .Location>p
+  {
+     font-size: 13px;
+     font-weight: 400;
+  
+  }
+  
+  .SearchBar
+  {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    border-left: 1px solid #eeeeee;
+    padding: 10px;
+    width: 40vw;
+  }
+  .SearchBar>input{
+    border: none;
+    background-color: transparent ;
+    width: 95%;
+    font-size: 14px;
+    color: #f8f8f8;
+  }
+  
+  .SearchBar>input:focus{
+    outline: none;
+  }
+  
+  .MyCart-Button
+  {
+    background-color: green;
+    height: 52px;
+    width: 112px;
+    border-radius: 8px;
+  }
+  
+  .Hero-Section>img
+  {
+   width: 85vw;
+  }
+  
+  
+  .Scrollable-Section
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    width: 83vw;
+    margin-inline: auto;
+  }
+  
+  .list
+  {
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+  }
+  
+  .list>div
+  {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  ::-webkit-scrollbar
+  {
+    display: none;
+  }
+  
+  .my-categories {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 85vw;
+    margin-inline: auto;
+  
+  }
+  
+  .my-category-div
+  {
+    width: 85vw;
+    justify-content: center;
+    margin-inline: auto;
+  }
+  
+  .my-card
+  {
+    width: 190px;
+    box-sizing: border-box;
+  }
+  
+  .time-taken
+  {
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+    width: fit-content;
+    padding:1px 3px;
+  }
+  
+  .product-name
+  {
+    color:  rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-inline: auto;
+  }
+  
+  .product-weight
+  {
+    font-size: 13px;
+    color: rgb(94, 94, 94);
+  }
+  
+  .product-price
+  {
+    columns: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  
+  .canceled-product-price
+  {
+    color: rgb(130, 130, 130);
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration-line: line-through;
+    margin-top: 20px;
+  }
+  
+  .product-btn
+  {
+    border: 1px solid green;
+    color: green;
+    background-color: rgb(247, 255, 249);
+    width: 66px;
+    font-weight: 200;
+    padding: 5px 10px;
+  }
+  
+  .my-category-row
+  {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+  }
+  
+  .my-category-row>div
+  {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .my-footer
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+    margin-inline: auto;
+    text-align: left;
+  
+  }
+  
+  .row-1
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .row-2
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .row-2-col-1
+  {
+    width: 32vw;
+  }
+  .row-2-col-2
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+    font-size: 16px;
+    padding :10px;
+    text-align: justify;
+  }
+  
+  .row-2-col-2>button
+  {
+    width: 100px;
+    height: 30px;
+    border-radius:6px ;
+    border: none;
+    background-color: #213b50;
+    margin-inline: 5px;
+    color: white;
+  }
+  
+  .row-2-col-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .row-2-col-3>a
+  {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .row-3
+  {
+    color: #6666;
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+  }
+  
+  td
+  {
+    padding: 0px 20px;
+    color:#666666;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .table-1
+  {
+    flex: 2;
+  }
+  
+  .table-2
+  {
+    flex: 4;
+  }
+  
+  @media screen and(max-width: 576px) {
+    .search-bar {
+      width: 80vw;
+    }
+  }
+  
+  
+  @media screen and(min-width: 577px) and (max-width: 991px) 
+  {
+    .Scrollable-Section {
+      width: 85vw;
+    }
+  
+    .Categories
+     {
+      width: 90vw;
+    }
+  }
